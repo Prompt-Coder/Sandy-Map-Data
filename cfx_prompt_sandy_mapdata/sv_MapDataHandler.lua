@@ -1,5 +1,5 @@
 local maps = {
-    
+    "prompt_sandy_cityhall"
 }
  
 local events = {}
