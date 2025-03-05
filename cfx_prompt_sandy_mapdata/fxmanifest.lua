@@ -13,7 +13,14 @@ escrow_ignore {
  
 -- scripts --
 lua54 'yes'
- 
-server_scripts{
-    'sv_MapDataHandler.lua'
+
+
+client_scripts {
+    'client.js'
 }
+
+server_scripts{
+    'sv_MapDataHandler.lua',
+    'server.js'
+}
+
