@@ -1,0 +1,25 @@
+fx_version "cerulean"
+games { 'gta5' }
+
+author 'Prompt Mods'
+description 'Bank+Motel+Mechanic+Church+Dealer+Cityhall+Houses1+Marina+Sheriff+Hospital'
+version '1.0.0'
+
+this_is_a_map 'yes'
+
+escrow_ignore {
+    'stream/**'
+}
+
+-- scripts --
+lua54 'yes'
+
+
+client_scripts {
+    'client.js'
+}
+
+server_scripts{
+    'sv_MapDataHandler.lua',
+    'server.js'
+}
