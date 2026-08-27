@@ -14,6 +14,8 @@ escrow_ignore {
 -- scripts --
 lua54 'yes'
 
+data_file 'DLC_ITYP_REQUEST' 'stream/prompt_props/prompt_sandy_props.ytyp'
+
 server_scripts{
     'sv_MapDataHandler.lua'
 }
