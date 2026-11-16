@@ -17,7 +17,9 @@ lua54 'yes'
 data_file 'DLC_ITYP_REQUEST' 'stream/prompt_props/prompt_sandy_props.ytyp'
 
 client_scripts {
-    'client.js'
+    'client.js',
+    'prompt_sandy_lod/zones.lua',
+    'prompt_sandy_lod/client.lua'
 }
 
 server_scripts{
